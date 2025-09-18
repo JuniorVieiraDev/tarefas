@@ -1,0 +1,29 @@
+.container {
+    width: 100%;
+    max-width: 1024px;
+    margin: 40px auto;
+    padding: 0 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.main {
+    width: 100%;
+}
+
+.main h1 {
+    margin-bottom: 14px;
+}
+
+.task {
+    border: 2px solid #909090;
+    padding: 14px;
+    border-radius: 5px;
+}
+
+.task p {
+    white-space: pre-wrap;
+}
