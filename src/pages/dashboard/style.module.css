@@ -1,0 +1,127 @@
+.container {
+    width: 100%;
+}
+
+.content {
+    background-color: #0f0f0f;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contentForm {
+    max-width: 1024px;
+    width: 100%;
+    padding: 0 18px 50px 18px;
+    margin-top: 50px;
+}
+
+.title {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.checkboxArea {
+    margin: 20px 0;
+}
+
+.checkboxArea label {
+    color: white;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.checkbox {
+    width: 20px;
+    height: 20px;
+}
+
+.button {
+    width: 100%;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    background-color: #5B92FA;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.button:active {
+    background-color: #3e6fcc;
+}
+
+
+.taskContainer {
+    margin: 20px auto;
+    padding: 0 18px;
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    flex-direction: column;
+}
+
+.taskContainer a {
+    text-decoration: none;
+    color: #0f0f0f;
+}
+
+.taskContainer h2 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.task {
+    margin-bottom: 20px;
+    line-height: 150%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border: 1.5px solid #909090;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.tagContainer {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.tag {
+    background-color: #5B92FA;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.shareButton {
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+}
+
+.taskContent {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    width: 100%;
+    gap: 10px;
+}
+
+.trashButton {
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+}
+
+.taskContent p {
+    white-space: pre-wrap;
+    font-size: 18px;
+}
