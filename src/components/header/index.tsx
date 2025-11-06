@@ -26,7 +26,7 @@ const Header = () => {
                     <></>
                 ) : session ? (
                     <button className={styles.loginButton} onClick={() => signOut()}>
-                        Olá, {session?.user?.name}
+                        Sair
                     </button>
                 ) : (
                     <button className={styles.loginButton} onClick={() => signIn('google')}>
